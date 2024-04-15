@@ -1,0 +1,21 @@
+﻿# Visual Studio code files
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio files
+bin/
+obj/
+
+# Other files
+*.log
+*.sqlite

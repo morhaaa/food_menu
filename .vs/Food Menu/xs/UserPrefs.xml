@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{7D48E31A-2562-44F0-970A-18AAD6F5E5D3}|https">
+  <MonoDevelop.Ide.ItemProperties.Food_220Menu PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Food Menu" expanded="True" selected="True">
+            <Node name="Food Menu" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
