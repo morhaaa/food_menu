@@ -1,18 +1,38 @@
 ﻿<Properties StartupConfiguration="{7D48E31A-2562-44F0-970A-18AAD6F5E5D3}|https">
-  <MonoDevelop.Ide.ItemProperties.Food_220Menu PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Food_220Menu PreferredExecutionTarget="/Applications/Brave Browser.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Food Menu/Properties/launchSettings.json" />
+      <File FileName="Food Menu/Views/Menu/Index.cshtml" />
+      <File FileName="Food Menu/Program.cs" Line="1" Column="1" />
+      <File FileName="Food Menu/appsettings.json" />
+      <File FileName="Food Menu/Controllers/MenuController.cs" />
+      <File FileName="Food Menu/Controllers/HomeController.cs" />
+      <File FileName="../../../.microsoft/usersecrets/530c658c-3195-4a07-8056-97f2ee4e8af8/secrets.json" Line="3" Column="72" />
+      <File FileName="Food Menu/Models/Dish.cs" />
+      <File FileName="Food Menu/Data/MenuContext.cs" />
+      <File FileName="Food Menu/Models/DishIngredient.cs" />
+      <File FileName="Food Menu/Models/Ingredient.cs" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Food Menu" expanded="True" selected="True">
-            <Node name="Food Menu" expanded="True" />
+          <Node name="Food Menu" expanded="True">
+            <Node name="Food Menu" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

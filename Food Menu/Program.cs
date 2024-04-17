@@ -6,8 +6,13 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+var connectionString = builder.Configuration.GetConnectionString("Local");
+
 builder.Services.AddDbContext<MenuContext>(options =>
-  options.UseSqlServer(builder.Configuration.GetConnectionString("Local")));
+{
+    var connectionString = builder.Configuration.GetConnectionString("Local");
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
+});
 
 var app = builder.Build();
 
